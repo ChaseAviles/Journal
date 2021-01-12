@@ -12,6 +12,10 @@
 		7EDA1216259D233600BBD350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA1214259D233600BBD350 /* Main.storyboard */; };
 		7EDA1218259D233700BBD350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA1217259D233700BBD350 /* Assets.xcassets */; };
 		7EDA121B259D233700BBD350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA1219259D233700BBD350 /* LaunchScreen.storyboard */; };
+		D4100D1825AD0D1500B9BE02 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4100D1725AD0D1500B9BE02 /* Entry.swift */; };
+		D4100D1D25AD0E4A00B9BE02 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4100D1C25AD0E4A00B9BE02 /* EntryController.swift */; };
+		D4100D2225AD12CB00B9BE02 /* JournalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4100D2125AD12CB00B9BE02 /* JournalListTableViewController.swift */; };
+		D4100D2625AD21D500B9BE02 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4100D2525AD21D500B9BE02 /* EntryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7EDA1217259D233700BBD350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDA121A259D233700BBD350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EDA121C259D233700BBD350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4100D1725AD0D1500B9BE02 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		D4100D1C25AD0E4A00B9BE02 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		D4100D2125AD12CB00B9BE02 /* JournalListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListTableViewController.swift; sourceTree = "<group>"; };
+		D4100D2525AD21D500B9BE02 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,9 @@
 		7EDA1202259D233600BBD350 = {
 			isa = PBXGroup;
 			children = (
+				D4100D2025AD12AA00B9BE02 /* ViewController */,
+				D4100D1B25AD0E1800B9BE02 /* ModelController */,
+				D4100D1625AD0CEF00B9BE02 /* Model */,
 				7EDA120D259D233600BBD350 /* Journal */,
 				7EDA120C259D233600BBD350 /* Products */,
 			);
@@ -78,6 +89,31 @@
 				7EDA1219259D233700BBD350 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D4100D1625AD0CEF00B9BE02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4100D1725AD0D1500B9BE02 /* Entry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4100D1B25AD0E1800B9BE02 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				D4100D1C25AD0E4A00B9BE02 /* EntryController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		D4100D2025AD12AA00B9BE02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D4100D2125AD12CB00B9BE02 /* JournalListTableViewController.swift */,
+				D4100D2525AD21D500B9BE02 /* EntryDetailViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4100D1825AD0D1500B9BE02 /* Entry.swift in Sources */,
 				7EDA120F259D233600BBD350 /* AppDelegate.swift in Sources */,
+				D4100D1D25AD0E4A00B9BE02 /* EntryController.swift in Sources */,
 				7EDA1211259D233600BBD350 /* SceneDelegate.swift in Sources */,
+				D4100D2625AD21D500B9BE02 /* EntryDetailViewController.swift in Sources */,
+				D4100D2225AD12CB00B9BE02 /* JournalListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
